@@ -22,6 +22,20 @@
 		99B1D3CC196400A500E907C3 /* NSString+MD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */; };
 		99B1D3CF1964027C00E907C3 /* MarvelAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */; };
 		99B1D3D11964041900E907C3 /* MarvelAPIHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */; };
+		99D58D17196AA90B0025CCCE /* SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D16196AA90B0025CCCE /* SuperHero.m */; };
+		99D58D19196AA9510025CCCE /* SuperHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D18196AA9510025CCCE /* SuperHeroTests.m */; };
+		99D58D1C196AAA240025CCCE /* SuperHeroParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D1B196AAA240025CCCE /* SuperHeroParser.m */; };
+		99D58D20196AAE180025CCCE /* SuperHeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D1E196AAE180025CCCE /* SuperHeroViewController.m */; };
+		99D58D21196AAE180025CCCE /* SuperHeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D1F196AAE180025CCCE /* SuperHeroViewController.xib */; };
+		99D58D25196AB6160025CCCE /* SuperHeroParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D24196AB6160025CCCE /* SuperHeroParserTests.m */; };
+		99D58D29196AE1980025CCCE /* QUIE-THOR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D28196AE1980025CCCE /* QUIE-THOR.jpg */; };
+		99D58D2C196AE3DE0025CCCE /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D2B196AE3DE0025CCCE /* ImageDownloader.m */; };
+		99D58D2E196AF7180025CCCE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D2D196AF7180025CCCE /* Storyboard.storyboard */; };
+		99D58D34196AF78F0025CCCE /* AllSuperHeroesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D33196AF78F0025CCCE /* AllSuperHeroesViewController.m */; };
+		99D58D36196AFC8D0025CCCE /* quietor.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D35196AFC8D0025CCCE /* quietor.wav */; };
+		99D58D38196AFD720025CCCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D58D37196AFD720025CCCE /* AVFoundation.framework */; };
+		99D58D3A196B1D8C0025CCCE /* sad-batman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D39196B1D8C0025CCCE /* sad-batman.jpeg */; };
+		99D94975196BC44A00E80007 /* SuperHeroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D94974196BC44A00E80007 /* SuperHeroCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99B1D3961964003600E907C3 /* MarvelAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B1D3961964003600E907C3 /* MarvelAPICollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPICollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B1D3991964003600E907C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99B1D39B1964003600E907C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		99B1D39D1964003600E907C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		99B1D3A11964003600E907C3 /* MarvelAPIDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarvelAPIDemo-Info.plist"; sourceTree = "<group>"; };
+		99B1D3A11964003600E907C3 /* MarvelAPICollection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarvelAPICollection-Info.plist"; sourceTree = "<group>"; };
 		99B1D3A31964003600E907C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99B1D3A51964003600E907C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		99B1D3A71964003600E907C3 /* MarvelAPIDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarvelAPIDemo-Prefix.pch"; sourceTree = "<group>"; };
+		99B1D3A71964003600E907C3 /* MarvelAPICollection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarvelAPICollection-Prefix.pch"; sourceTree = "<group>"; };
 		99B1D3A81964003600E907C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99B1D3A91964003600E907C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		99B1D3AB1964003600E907C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		99B1D3B11964003700E907C3 /* MarvelAPIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelAPIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B1D3B11964003700E907C3 /* MarvelAPICollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelAPICollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B1D3B21964003700E907C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		99B1D3BA1964003700E907C3 /* MarvelAPIDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarvelAPIDemoTests-Info.plist"; sourceTree = "<group>"; };
+		99B1D3BA1964003700E907C3 /* MarvelAPICollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarvelAPICollectionTests-Info.plist"; sourceTree = "<group>"; };
 		99B1D3BC1964003700E907C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99B1D3C81964005600E907C3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		99B1D3C91964005600E907C3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
@@ -56,6 +70,26 @@
 		99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarvelAPIHelper.h; sourceTree = "<group>"; };
 		99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIHelper.m; sourceTree = "<group>"; };
 		99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIHelperTests.m; sourceTree = "<group>"; };
+		99D58D15196AA90B0025CCCE /* SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHero.h; sourceTree = "<group>"; };
+		99D58D16196AA90B0025CCCE /* SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHero.m; sourceTree = "<group>"; };
+		99D58D18196AA9510025CCCE /* SuperHeroTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroTests.m; sourceTree = "<group>"; };
+		99D58D1A196AAA240025CCCE /* SuperHeroParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHeroParser.h; sourceTree = "<group>"; };
+		99D58D1B196AAA240025CCCE /* SuperHeroParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroParser.m; sourceTree = "<group>"; };
+		99D58D1D196AAE180025CCCE /* SuperHeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHeroViewController.h; sourceTree = "<group>"; };
+		99D58D1E196AAE180025CCCE /* SuperHeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroViewController.m; sourceTree = "<group>"; };
+		99D58D1F196AAE180025CCCE /* SuperHeroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SuperHeroViewController.xib; path = MarvelAPIDemo/SuperHeroViewController.xib; sourceTree = "<group>"; };
+		99D58D24196AB6160025CCCE /* SuperHeroParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroParserTests.m; sourceTree = "<group>"; };
+		99D58D28196AE1980025CCCE /* QUIE-THOR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QUIE-THOR.jpg"; sourceTree = "<group>"; };
+		99D58D2A196AE3DE0025CCCE /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		99D58D2B196AE3DE0025CCCE /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		99D58D2D196AF7180025CCCE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = MarvelAPIDemo/Storyboard.storyboard; sourceTree = "<group>"; };
+		99D58D32196AF78F0025CCCE /* AllSuperHeroesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllSuperHeroesViewController.h; sourceTree = "<group>"; };
+		99D58D33196AF78F0025CCCE /* AllSuperHeroesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllSuperHeroesViewController.m; sourceTree = "<group>"; };
+		99D58D35196AFC8D0025CCCE /* quietor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = quietor.wav; sourceTree = "<group>"; };
+		99D58D37196AFD720025CCCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		99D58D39196B1D8C0025CCCE /* sad-batman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sad-batman.jpeg"; sourceTree = "<group>"; };
+		99D94973196BC44A00E80007 /* SuperHeroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperHeroCell.h; path = MarvelAPIDemo/SuperHeroCell.h; sourceTree = "<group>"; };
+		99D94974196BC44A00E80007 /* SuperHeroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperHeroCell.m; path = MarvelAPIDemo/SuperHeroCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D38196AFD720025CCCE /* AVFoundation.framework in Frameworks */,
 				99B1D39C1964003600E907C3 /* CoreGraphics.framework in Frameworks */,
 				99B1D39E1964003600E907C3 /* UIKit.framework in Frameworks */,
 				99B1D39A1964003600E907C3 /* Foundation.framework in Frameworks */,
@@ -95,8 +130,8 @@
 		99B1D3971964003600E907C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99B1D3961964003600E907C3 /* MarvelAPIDemo.app */,
-				99B1D3B11964003700E907C3 /* MarvelAPIDemoTests.xctest */,
+				99B1D3961964003600E907C3 /* MarvelAPICollection.app */,
+				99B1D3B11964003700E907C3 /* MarvelAPICollectionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +139,7 @@
 		99B1D3981964003600E907C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99D58D37196AFD720025CCCE /* AVFoundation.framework */,
 				99B1D3991964003600E907C3 /* Foundation.framework */,
 				99B1D39B1964003600E907C3 /* CoreGraphics.framework */,
 				99B1D39D1964003600E907C3 /* UIKit.framework */,
@@ -115,14 +151,17 @@
 		99B1D39F1964003600E907C3 /* MarvelAPIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				99D58D39196B1D8C0025CCCE /* sad-batman.jpeg */,
 				99B1D3A81964003600E907C3 /* AppDelegate.h */,
 				99B1D3A91964003600E907C3 /* AppDelegate.m */,
+				99D58D35196AFC8D0025CCCE /* quietor.wav */,
+				99D58D28196AE1980025CCCE /* QUIE-THOR.jpg */,
+				99D58D14196AA8D80025CCCE /* Controller */,
+				99D58D22196AAE280025CCCE /* View */,
+				99D58D13196AA8D20025CCCE /* Model */,
+				99D58D12196AA8470025CCCE /* NSString+MD5 */,
 				99B1D3AB1964003600E907C3 /* Images.xcassets */,
 				99B1D3A01964003600E907C3 /* Supporting Files */,
-				99B1D3C81964005600E907C3 /* NSString+MD5.h */,
-				99B1D3C91964005600E907C3 /* NSString+MD5.m */,
-				99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */,
-				99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */,
 			);
 			path = MarvelAPIDemo;
 			sourceTree = "<group>";
@@ -130,10 +169,10 @@
 		99B1D3A01964003600E907C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99B1D3A11964003600E907C3 /* MarvelAPIDemo-Info.plist */,
+				99B1D3A11964003600E907C3 /* MarvelAPICollection-Info.plist */,
 				99B1D3A21964003600E907C3 /* InfoPlist.strings */,
 				99B1D3A51964003600E907C3 /* main.m */,
-				99B1D3A71964003600E907C3 /* MarvelAPIDemo-Prefix.pch */,
+				99B1D3A71964003600E907C3 /* MarvelAPICollection-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,6 +183,8 @@
 				99B1D3B91964003700E907C3 /* Supporting Files */,
 				99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */,
 				99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */,
+				99D58D18196AA9510025CCCE /* SuperHeroTests.m */,
+				99D58D24196AB6160025CCCE /* SuperHeroParserTests.m */,
 			);
 			path = MarvelAPIDemoTests;
 			sourceTree = "<group>";
@@ -151,18 +192,65 @@
 		99B1D3B91964003700E907C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99B1D3BA1964003700E907C3 /* MarvelAPIDemoTests-Info.plist */,
+				99B1D3BA1964003700E907C3 /* MarvelAPICollectionTests-Info.plist */,
 				99B1D3BB1964003700E907C3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		99D58D12196AA8470025CCCE /* NSString+MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				99B1D3C81964005600E907C3 /* NSString+MD5.h */,
+				99B1D3C91964005600E907C3 /* NSString+MD5.m */,
+			);
+			name = "NSString+MD5";
+			sourceTree = "<group>";
+		};
+		99D58D13196AA8D20025CCCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */,
+				99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */,
+				99D58D15196AA90B0025CCCE /* SuperHero.h */,
+				99D58D16196AA90B0025CCCE /* SuperHero.m */,
+				99D58D1A196AAA240025CCCE /* SuperHeroParser.h */,
+				99D58D1B196AAA240025CCCE /* SuperHeroParser.m */,
+				99D58D2A196AE3DE0025CCCE /* ImageDownloader.h */,
+				99D58D2B196AE3DE0025CCCE /* ImageDownloader.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		99D58D14196AA8D80025CCCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99D58D1D196AAE180025CCCE /* SuperHeroViewController.h */,
+				99D58D1E196AAE180025CCCE /* SuperHeroViewController.m */,
+				99D58D32196AF78F0025CCCE /* AllSuperHeroesViewController.h */,
+				99D58D33196AF78F0025CCCE /* AllSuperHeroesViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		99D58D22196AAE280025CCCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99D58D2D196AF7180025CCCE /* Storyboard.storyboard */,
+				99D58D1F196AAE180025CCCE /* SuperHeroViewController.xib */,
+				99D94973196BC44A00E80007 /* SuperHeroCell.h */,
+				99D94974196BC44A00E80007 /* SuperHeroCell.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99B1D3951964003600E907C3 /* MarvelAPIDemo */ = {
+		99B1D3951964003600E907C3 /* MarvelAPICollection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99B1D3C21964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPIDemo" */;
+			buildConfigurationList = 99B1D3C21964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPICollection" */;
 			buildPhases = (
 				99B1D3921964003600E907C3 /* Sources */,
 				99B1D3931964003600E907C3 /* Frameworks */,
@@ -172,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = MarvelAPIDemo;
+			name = MarvelAPICollection;
 			productName = MarvelAPIDemo;
-			productReference = 99B1D3961964003600E907C3 /* MarvelAPIDemo.app */;
+			productReference = 99B1D3961964003600E907C3 /* MarvelAPICollection.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99B1D3B01964003700E907C3 /* MarvelAPIDemoTests */ = {
+		99B1D3B01964003700E907C3 /* MarvelAPICollectionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99B1D3C51964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPIDemoTests" */;
+			buildConfigurationList = 99B1D3C51964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPICollectionTests" */;
 			buildPhases = (
 				99B1D3AD1964003700E907C3 /* Sources */,
 				99B1D3AE1964003700E907C3 /* Frameworks */,
@@ -190,9 +278,9 @@
 			dependencies = (
 				99B1D3B71964003700E907C3 /* PBXTargetDependency */,
 			);
-			name = MarvelAPIDemoTests;
+			name = MarvelAPICollectionTests;
 			productName = MarvelAPIDemoTests;
-			productReference = 99B1D3B11964003700E907C3 /* MarvelAPIDemoTests.xctest */;
+			productReference = 99B1D3B11964003700E907C3 /* MarvelAPICollectionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +297,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99B1D3911964003600E907C3 /* Build configuration list for PBXProject "MarvelAPIDemo" */;
+			buildConfigurationList = 99B1D3911964003600E907C3 /* Build configuration list for PBXProject "MarvelAPICollection" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +309,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99B1D3951964003600E907C3 /* MarvelAPIDemo */,
-				99B1D3B01964003700E907C3 /* MarvelAPIDemoTests */,
+				99B1D3951964003600E907C3 /* MarvelAPICollection */,
+				99B1D3B01964003700E907C3 /* MarvelAPICollectionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +320,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D3A196B1D8C0025CCCE /* sad-batman.jpeg in Resources */,
+				99D58D21196AAE180025CCCE /* SuperHeroViewController.xib in Resources */,
+				99D58D29196AE1980025CCCE /* QUIE-THOR.jpg in Resources */,
 				99B1D3A41964003600E907C3 /* InfoPlist.strings in Resources */,
 				99B1D3AC1964003600E907C3 /* Images.xcassets in Resources */,
+				99D58D36196AFC8D0025CCCE /* quietor.wav in Resources */,
+				99D58D2E196AF7180025CCCE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D34196AF78F0025CCCE /* AllSuperHeroesViewController.m in Sources */,
+				99D58D1C196AAA240025CCCE /* SuperHeroParser.m in Sources */,
 				99B1D3CF1964027C00E907C3 /* MarvelAPIHelper.m in Sources */,
 				99B1D3CA1964005600E907C3 /* NSString+MD5.m in Sources */,
+				99D58D20196AAE180025CCCE /* SuperHeroViewController.m in Sources */,
+				99D58D17196AA90B0025CCCE /* SuperHero.m in Sources */,
 				99B1D3AA1964003600E907C3 /* AppDelegate.m in Sources */,
+				99D94975196BC44A00E80007 /* SuperHeroCell.m in Sources */,
+				99D58D2C196AE3DE0025CCCE /* ImageDownloader.m in Sources */,
 				99B1D3A61964003600E907C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D19196AA9510025CCCE /* SuperHeroTests.m in Sources */,
 				99B1D3CC196400A500E907C3 /* NSString+MD5Tests.m in Sources */,
+				99D58D25196AB6160025CCCE /* SuperHeroParserTests.m in Sources */,
 				99B1D3D11964041900E907C3 /* MarvelAPIHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +374,7 @@
 /* Begin PBXTargetDependency section */
 		99B1D3B71964003700E907C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99B1D3951964003600E907C3 /* MarvelAPIDemo */;
+			target = 99B1D3951964003600E907C3 /* MarvelAPICollection */;
 			targetProxy = 99B1D3B61964003700E907C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,9 +475,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MarvelAPIDemo/MarvelAPIDemo-Prefix.pch";
-				INFOPLIST_FILE = "MarvelAPIDemo/MarvelAPIDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MarvelAPIDemo/MarvelAPICollection-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = "MarvelAPIDemo/MarvelAPICollection-Info.plist";
+				PRODUCT_NAME = MarvelAPICollection;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,9 +489,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MarvelAPIDemo/MarvelAPIDemo-Prefix.pch";
-				INFOPLIST_FILE = "MarvelAPIDemo/MarvelAPIDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MarvelAPIDemo/MarvelAPICollection-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				INFOPLIST_FILE = "MarvelAPIDemo/MarvelAPICollection-Info.plist";
+				PRODUCT_NAME = MarvelAPICollection;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -409,8 +512,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MarvelAPIDemoTests/MarvelAPIDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MarvelAPIDemoTests/MarvelAPICollectionTests-Info.plist";
+				PRODUCT_NAME = MarvelAPICollectionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -427,8 +530,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MarvelAPIDemo/MarvelAPIDemo-Prefix.pch";
-				INFOPLIST_FILE = "MarvelAPIDemoTests/MarvelAPIDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MarvelAPIDemoTests/MarvelAPICollectionTests-Info.plist";
+				PRODUCT_NAME = MarvelAPICollectionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -437,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99B1D3911964003600E907C3 /* Build configuration list for PBXProject "MarvelAPIDemo" */ = {
+		99B1D3911964003600E907C3 /* Build configuration list for PBXProject "MarvelAPICollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99B1D3C01964003700E907C3 /* Debug */,
@@ -446,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99B1D3C21964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPIDemo" */ = {
+		99B1D3C21964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPICollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99B1D3C31964003700E907C3 /* Debug */,
@@ -455,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99B1D3C51964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPIDemoTests" */ = {
+		99B1D3C51964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPICollectionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99B1D3C61964003700E907C3 /* Debug */,

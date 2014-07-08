@@ -10,8 +10,19 @@
 
 @interface MarvelAPIHelper : NSObject
 
+@property (nonatomic, copy) NSString *publicKey;
+@property (nonatomic, copy) NSString *secretKey;
+@property (nonatomic, copy, readonly) NSString *timeStamp;
+
+
 - (NSString *)authorizationStringWithPublicKey:(NSString *)publicKey andSecretKey:(NSString *)secretKey andTimeStamp:(NSString *)ts;
 
-- (NSArray *)allComicsUsingPublicKey:(NSString *)publicKey andSecretKey:(NSString *)secretKey andTimeStamp:(NSString *)ts;
+- (NSArray *)allComics;
+
+- (NSData *)dataForSuperheroNamed:(NSString *)name;
+
+- (void)dataForSuperheroNamed:(NSString *)name completion:(void (^)(NSData *resultData))completionBlock;
+- (NSData *)dataForAllSuperheros;
+
 
 @end
